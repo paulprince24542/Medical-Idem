@@ -1,0 +1,29 @@
+{
+  "name": "medical_idem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adminjs/express": "^5.1.0",
+    "@adminjs/sql": "^1.0.0",
+    "adminjs": "^6.8.7",
+    "connect-pg-simple": "^8.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "nfc-pcsc": "^0.8.1",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0",
+    "tiptap": "^1.32.2",
+    "tslib": "^2.5.0"
+  }
+}
